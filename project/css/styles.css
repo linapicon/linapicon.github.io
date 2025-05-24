@@ -1,0 +1,93 @@
+
+body {
+    background-color: #f5ffe9; /* Change to any color you want */
+    font-family: Arial, sans-serif;
+}
+
+.title:hover {
+    transform: scale(1.5); /* Enlarges text */
+    color: green; /* Changes color */
+    transition: 0.3s ease-in-out;
+}
+
+.title {
+    font-size: 72px; /* Adjust size as needed */
+    font-weight: bold; /* Optional: Makes text bolder */
+    text-align: center; /* Optional: Centers the title */
+}
+
+
+.blue {color: blue;
+}
+.red {color: red;
+}
+.highlight {
+    color: red; /* Change to any color you want */
+}
+.yellow {
+	color: yellow;
+}
+
+.highlight-block {
+    background-color: blue; 
+    padding: 1px; 
+    border-radius: 2px; 
+    display: inline-block; 
+
+color: black; 
+
+}
+
+.highlight-block2 {
+    background-color: #FFFFFF; 
+    padding: 1px; 
+    border-radius: 2px; 
+    display: inline-block; 
+}
+
+
+h1 {
+
+color: black;
+
+
+}
+
+p {
+
+font-size: 32px;
+margin-bottom: 20px; /* Adds space below each paragraph */
+    line-height: 1.6; /* Improves readability */
+
+}
+
+
+h2 {
+
+color: #555; /* Slightly lighter gray */
+
+}
+
+.responsive-image {
+	width:600;
+	height:auto;
+
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    align-items: center; /* Centers images vertically */
+    gap: 20px; /* Adds space between images */
+}
+
+hr {
+	height: 30px;
+    border: none;
+    background-color: transparent; 
+}
+
+img:hover {
+    transform: scale(1.5); /* Enlarges the image */
+    transition: 0.3s ease-in-out; /* Adds smooth animation */
+}
+
